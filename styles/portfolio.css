@@ -86,6 +86,9 @@ header{
         max-width: 1140px;
         margin: 0 auto;
     }
+    main section{
+        margin-top: 130px;
+    }
 /* about section Style */
 .about{
     padding: 130px;
@@ -100,6 +103,20 @@ header{
 .about-info{
     text-align: center;
 }
+/* skikll related style */
 .description-bellow{
     padding: 50px 150px;
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 33px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.6);
+}
+.skill-description{
+    color: #757575;
 }
